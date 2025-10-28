@@ -1,0 +1,1303 @@
+[
+  {
+    "name": "Adam Warlock",
+    "slug": "adam-warlock",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Adam_Warlock.png",
+    "summary": "Cosmic being with reality manipulation abilities and team resurrection powers.",
+    "strengths": ["Reality manipulation", "Team resurrection", "Cosmic awareness"],
+    "limitations": ["Complex ability management", "High skill requirement", "Energy dependent"],
+    "health": 200,
+    "abilities": [
+      {
+        "name": "Quantum Blast",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 55,
+        "notes": "Cosmic energy projectiles that pierce through enemies and heal allies"
+      },
+      {
+        "name": "Soul Shield",
+        "type": "Secondary",
+        "cooldown": 12,
+        "notes": "Creates protective barriers for teammates, absorbing incoming damage"
+      },
+      {
+        "name": "Cosmic Awareness",
+        "type": "Utility",
+        "cooldown": 18,
+        "notes": "Reveals enemy positions and provides team-wide damage boost"
+      },
+      {
+        "name": "Resurrection",
+        "type": "Ultimate",
+        "cooldown": 140,
+        "notes": "Instantly revives all fallen teammates with full health and temporary invulnerability"
+      }
+    ],
+    "teamUps": ["Guardians synergy with Star-Lord and Rocket - Enhanced cosmic abilities"],
+    "antiSynergies": ["Hulk - Unpredictable rage disrupts cosmic focus"],
+    "counters": ["High mobility duelists like Spider-Man", "Burst damage dealers like Hawkeye"],
+    "counterTips": ["Stay behind cover vs snipers", "Use cosmic awareness to track flankers"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "playstyleTips": {
+      "beginner": ["Focus on staying alive to maximize resurrection value", "Use soul shield proactively on low-health allies", "Position behind cover and use range advantage"],
+      "advanced": ["Master resurrection timing for team fight resets", "Coordinate cosmic awareness with team pushes", "Use quantum blast to both damage enemies and heal allies simultaneously"]
+    },
+    "builds": [
+      {
+        "name": "Team Support",
+        "description": "Maximize healing and resurrection effectiveness",
+        "items": ["Cosmic Amplifier", "Soul Resonator", "Guardian's Will"]
+      },
+      {
+        "name": "Hybrid Damage",
+        "description": "Balance between support and damage output",
+        "items": ["Quantum Enhancer", "Reality Shard", "Cosmic Focus"]
+      }
+    ],
+    "patchNotes": "Season 1: Initial release with balanced cosmic abilities",
+    "faq": [
+      {
+        "question": "When should I use Adam Warlock's ultimate?",
+        "answer": "Use Resurrection when multiple teammates are down and you have a safe position. It's most effective during team fights when you can immediately turn a 2v5 into a 6v5."
+      },
+      {
+        "question": "How do I maximize Adam Warlock's healing potential?",
+        "answer": "Position yourself where your Quantum Blast can hit both enemies and injured allies. The piercing effect allows you to heal teammates behind the enemy you're shooting."
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 52.3,
+    "pickRate": 8.7
+  },
+  {
+    "name": "Angela",
+    "slug": "angela",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Angela.png",
+    "summary": "Asgardian warrior with high damage output and mobility abilities.",
+    "strengths": ["High damage", "Mobility", "Burst potential"],
+    "limitations": ["Squishy", "Cooldown dependent", "Positioning critical"],
+    "abilities": [
+      {
+        "name": "Angelic Blade",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 15,
+        "damage": 75,
+        "notes": "Melee weapon with energy projectiles"
+      }
+    ],
+    "teamUps": ["Asgardian synergy with Thor and Loki"],
+    "counters": ["Tank heroes", "Crowd control abilities"],
+    "bestMaps": ["Hydra Base", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 48.9,
+    "pickRate": 6.2
+  },
+
+  {
+    "name": "Black Panther",
+    "slug": "black-panther",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Black_Panther.png",
+    "summary": "Wakandan king with stealth abilities and vibranium-enhanced combat.",
+    "strengths": ["Stealth", "Burst damage", "Mobility"],
+    "limitations": ["Squishy", "Stealth dependent", "Close range"],
+    "abilities": [
+      {
+        "name": "Vibranium Claws",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 12,
+        "damage": 80,
+        "notes": "Melee attacks with energy absorption"
+      }
+    ],
+    "teamUps": ["Wakandan tech synergy"],
+    "counters": ["Area damage", "Detection abilities"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 54.1,
+    "pickRate": 12.3
+  },
+  {
+    "name": "Black Widow",
+    "slug": "black-widow",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Black_Widow.png",
+    "summary": "Master spy with stealth capabilities and precision weapons.",
+    "strengths": ["Stealth", "Precision", "Utility"],
+    "limitations": ["Low health", "Positioning critical", "Aim dependent"],
+    "abilities": [
+      {
+        "name": "Widow's Bite",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 65,
+        "notes": "Dual pistols with electric damage"
+      }
+    ],
+    "teamUps": ["S.H.I.E.L.D. synergy with Hawkeye"],
+    "counters": ["Tank heroes", "Area denial"],
+    "bestMaps": ["Hellfire Gala", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 49.7,
+    "pickRate": 9.1
+  },
+  {
+
+    "name": "Blade",
+    "slug": "blade",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Blade.png",
+    "summary": "Vampire hunter with supernatural abilities and melee expertise.",
+    "strengths": ["Melee combat", "Supernatural abilities", "Lifesteal"],
+    "limitations": ["Close range", "Complex combos", "Vulnerable to range"],
+    "abilities": [
+      {
+        "name": "Silver Blade",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 10,
+        "damage": 85,
+        "notes": "Melee weapon with lifesteal"
+      }
+    ],
+    "teamUps": ["Supernatural synergy with Doctor Strange"],
+    "counters": ["Ranged heroes", "Crowd control"],
+    "bestMaps": ["Sanctum Sanctorum", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 47.2,
+    "pickRate": 5.8
+  },
+  {
+    "name": "Bruce Banner",
+    "slug": "bruce-banner",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Hulk.png",
+    "summary": "Scientist who can transform into the Hulk for combat situations.",
+    "strengths": ["Transformation", "Scientific support", "Dual nature"],
+    "limitations": ["Transformation timing", "Vulnerable in human form", "Complex management"],
+    "abilities": [
+      {
+        "name": "Gamma Ray",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 45,
+        "notes": "Scientific equipment attacks"
+      }
+    ],
+    "teamUps": ["Science synergy with Iron Man"],
+    "counters": ["Burst damage", "Transformation interruption"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "C-Tier",
+    "winRate": 44.6,
+    "pickRate": 3.2
+  },
+  {
+
+    "name": "Captain America",
+    "slug": "captain-america",
+    "role": "Vanguard",
+    "difficulty": "Easy",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Captain_America.png",
+    "summary": "Super soldier with shield abilities and team leadership capabilities.",
+    "strengths": ["Shield defense", "Team buffs", "Durability"],
+    "limitations": ["Limited range", "Predictable patterns", "Shield dependency"],
+    "abilities": [
+      {
+        "name": "Shield Throw",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 70,
+        "notes": "Ricocheting shield projectile"
+      }
+    ],
+    "teamUps": ["Avengers synergy with Iron Man and Thor"],
+    "counters": ["Mobility heroes", "Area damage"],
+    "bestMaps": ["Hydra Base", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 56.8,
+    "pickRate": 15.4
+  },
+  {
+    "name": "Cloak & Dagger",
+    "slug": "cloak-and-dagger",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Cloak_&_Dagger.png",
+    "summary": "Dual character with light and dark abilities for team support.",
+    "strengths": ["Dual abilities", "Teleportation", "Healing and damage"],
+    "limitations": ["Complex management", "Positioning critical", "Resource management"],
+    "abilities": [
+      {
+        "name": "Light Daggers",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 50,
+        "notes": "Healing allies or damaging enemies"
+      }
+    ],
+    "teamUps": ["Divine synergy with other mystical heroes"],
+    "counters": ["Burst damage", "Separation tactics"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 51.2,
+    "pickRate": 7.9
+  },
+  
+{
+    "name": "Daredevil",
+    "slug": "daredevil",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Daredevil.png",
+    "summary": "Blind vigilante with enhanced senses and acrobatic combat skills.",
+    "strengths": ["Enhanced senses", "Mobility", "Melee combat"],
+    "limitations": ["Close range", "Squishy", "Sense dependent"],
+    "abilities": [
+      {
+        "name": "Billy Club",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 15,
+        "damage": 75,
+        "notes": "Melee weapon with grappling hook"
+      }
+    ],
+    "teamUps": ["Street-level synergy with Spider-Man"],
+    "counters": ["Ranged heroes", "Area damage"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 48.3,
+    "pickRate": 6.7
+  },
+  {
+    "name": "Doctor Strange",
+    "slug": "doctor-strange",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Doctor_Strange.png",
+    "summary": "Master of the mystic arts providing high utility and battlefield control.",
+    "strengths": ["Utility", "Crowd control", "Portal mobility"],
+    "limitations": ["Frontline durability", "Team-dependent", "Complex execution"],
+    "abilities": [
+      {
+        "name": "Bolts of Balthakk",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 50,
+        "notes": "Magical projectiles that pierce through enemies"
+      }
+    ],
+    "teamUps": ["Mystical synergy with Scarlet Witch"],
+    "counters": ["High mobility", "Burst damage"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 58.9,
+    "pickRate": 18.2
+  },
+
+  {
+    "name": "Emma Frost",
+    "slug": "emma-frost",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Emma_Frost.png",
+    "summary": "Telepathic mutant with diamond form and mind control abilities.",
+    "strengths": ["Mind control", "Diamond form", "Telepathy"],
+    "limitations": ["Form switching", "Vulnerable transitions", "Complex abilities"],
+    "abilities": [
+      {
+        "name": "Psychic Blast",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 55,
+        "notes": "Telepathic attacks"
+      }
+    ],
+    "teamUps": ["X-Men synergy with Storm and Phoenix"],
+    "counters": ["Anti-psychic abilities", "Burst damage"],
+    "bestMaps": ["Hellfire Gala", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 53.7,
+    "pickRate": 9.8
+  },
+  {
+    "name": "Groot",
+    "slug": "groot",
+    "role": "Vanguard",
+    "difficulty": "Easy",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Groot.png",
+    "summary": "Tree-like Guardian with defensive abilities and area control.",
+    "strengths": ["High health", "Area control", "Team protection"],
+    "limitations": ["Low mobility", "Large hitbox", "Predictable"],
+    "abilities": [
+      {
+        "name": "Branch Strike",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 20,
+        "damage": 65,
+        "notes": "Extending branch attacks"
+      }
+    ],
+    "teamUps": ["Guardians synergy with Star-Lord and Rocket"],
+    "counters": ["Fire abilities", "Mobility heroes"],
+    "bestMaps": ["Sanctum Sanctorum", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 50.4,
+    "pickRate": 11.6
+  },
+  {
+
+    "name": "Hawkeye",
+    "slug": "hawkeye",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Hawkeye.png",
+    "summary": "Master archer with precision shots and trick arrows.",
+    "strengths": ["Long range", "Precision", "Utility arrows"],
+    "limitations": ["Aim dependent", "Vulnerable close range", "No mobility"],
+    "abilities": [
+      {
+        "name": "Bow Shot",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 40,
+        "damage": 90,
+        "notes": "High damage precision shots"
+      }
+    ],
+    "teamUps": ["Avengers synergy with Captain America"],
+    "counters": ["Mobility heroes", "Shields"],
+    "bestMaps": ["Hellfire Gala", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 55.2,
+    "pickRate": 13.7
+  },
+  {
+    "name": "Hela",
+    "slug": "hela",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Hela.png",
+    "summary": "Asgardian goddess of death with necromantic abilities.",
+    "strengths": ["Death magic", "Area damage", "Crowd control"],
+    "limitations": ["Positioning critical", "Cooldown dependent", "Squishy"],
+    "abilities": [
+      {
+        "name": "Necro Blades",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 70,
+        "notes": "Death magic projectiles"
+      }
+    ],
+    "teamUps": ["Asgardian synergy with Thor and Loki"],
+    "counters": ["Life-based healing", "High mobility"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 52.8,
+    "pickRate": 10.3
+  },
+
+  {
+    "name": "Hulk",
+    "slug": "hulk",
+    "role": "Vanguard",
+    "difficulty": "Easy",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Hulk.png",
+    "summary": "Gamma-powered behemoth with incredible strength and durability.",
+    "strengths": ["High health pool", "Crowd control", "Initiation potential"],
+    "limitations": ["Large hitbox", "Limited range", "Slow movement"],
+    "abilities": [
+      {
+        "name": "Gamma Ray",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 20,
+        "damage": 80,
+        "notes": "Short range energy blast"
+      }
+    ],
+    "teamUps": ["Science synergy with Iron Man"],
+    "counters": ["Mobility heroes", "Crowd control"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 61.4,
+    "pickRate": 22.1
+  },
+  {
+    "name": "Human Torch",
+    "slug": "human-torch",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Human_Torch.png",
+    "summary": "Fantastic Four member with fire abilities and flight.",
+    "strengths": ["Flight", "Fire damage", "Area control"],
+    "limitations": ["Vulnerable to water", "Energy dependent", "Positioning critical"],
+    "abilities": [
+      {
+        "name": "Flame Blast",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 65,
+        "notes": "Fire projectiles with burn effect"
+      }
+    ],
+    "teamUps": ["Fantastic Four synergy with Invisible Woman"],
+    "counters": ["Water abilities", "Anti-air"],
+    "bestMaps": ["Hellfire Gala", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 49.1,
+    "pickRate": 8.4
+  },
+
+  {
+    "name": "Invisible Woman",
+    "slug": "invisible-woman",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Invisible_Woman.png",
+    "summary": "Fantastic Four member with invisibility and force field abilities.",
+    "strengths": ["Invisibility", "Force fields", "Team protection"],
+    "limitations": ["Complex management", "Positioning critical", "Energy dependent"],
+    "abilities": [
+      {
+        "name": "Force Blast",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 50,
+        "notes": "Invisible force projectiles"
+      }
+    ],
+    "teamUps": ["Fantastic Four synergy with Human Torch"],
+    "counters": ["Detection abilities", "Area damage"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 54.6,
+    "pickRate": 11.2
+  },
+  {
+    "name": "Iron Fist",
+    "slug": "iron-fist",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Iron_Fist.png",
+    "summary": "Martial artist with chi-powered abilities and melee expertise.",
+    "strengths": ["Melee combat", "Chi abilities", "Mobility"],
+    "limitations": ["Close range", "Chi management", "Squishy"],
+    "abilities": [
+      {
+        "name": "Iron Fist Strike",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 12,
+        "damage": 85,
+        "notes": "Chi-powered melee attacks"
+      }
+    ],
+    "teamUps": ["Martial arts synergy with Daredevil"],
+    "counters": ["Ranged heroes", "Crowd control"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 47.8,
+    "pickRate": 5.9
+  },
+
+  {
+    "name": "Iron Man",
+    "slug": "iron-man",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Iron_Man.png",
+    "summary": "Genius inventor with advanced armor and flight capabilities.",
+    "strengths": ["High damage output", "Flight mobility", "Area control"],
+    "limitations": ["Complex ability management", "Resource dependent", "Large hitbox"],
+    "abilities": [
+      {
+        "name": "Repulsor Ray",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 70,
+        "notes": "Hitscan beam with damage falloff"
+      }
+    ],
+    "teamUps": ["Avengers synergy with Captain America"],
+    "counters": ["Anti-air abilities", "EMP effects"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 59.7,
+    "pickRate": 19.8
+  },
+  {
+    "name": "Jeff the Land Shark",
+    "slug": "jeff-the-land-shark",
+    "role": "Strategist",
+    "difficulty": "Easy",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Jeff_the_Land_Shark.png",
+    "summary": "Adorable land shark with surprising support abilities.",
+    "strengths": ["Cute factor", "Surprise abilities", "Team support"],
+    "limitations": ["Small size", "Limited range", "Underestimated"],
+    "abilities": [
+      {
+        "name": "Shark Bite",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 10,
+        "damage": 60,
+        "notes": "Melee bite attacks"
+      }
+    ],
+    "teamUps": ["Universal synergy with all heroes"],
+    "counters": ["Ranged heroes", "Area damage"],
+    "bestMaps": ["Hellfire Gala", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 56.3,
+    "pickRate": 14.7
+  },
+
+  {
+    "name": "Loki",
+    "slug": "loki",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Loki.png",
+    "summary": "God of mischief with illusion abilities and trickery.",
+    "strengths": ["Illusions", "Trickery", "Crowd control"],
+    "limitations": ["Complex abilities", "Positioning critical", "Deception dependent"],
+    "abilities": [
+      {
+        "name": "Illusion Blast",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 55,
+        "notes": "Magical projectiles with illusion effects"
+      }
+    ],
+    "teamUps": ["Asgardian synergy with Thor"],
+    "counters": ["Truth detection", "Area damage"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 53.1,
+    "pickRate": 10.8
+  },
+  {
+    "name": "Luna Snow",
+    "slug": "luna-snow",
+    "role": "Strategist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Luna_Snow.png",
+    "summary": "K-pop star with ice abilities and healing powers.",
+    "strengths": ["Ice abilities", "Healing", "Crowd control"],
+    "limitations": ["Positioning critical", "Energy dependent", "Vulnerable to fire"],
+    "abilities": [
+      {
+        "name": "Ice Shard",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 50,
+        "notes": "Ice projectiles with slow effect"
+      }
+    ],
+    "teamUps": ["Ice synergy with other frost heroes"],
+    "counters": ["Fire abilities", "High mobility"],
+    "bestMaps": ["Hellfire Gala", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 51.7,
+    "pickRate": 9.4
+  },
+ 
+ {
+    "name": "Magik",
+    "slug": "magik",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Magik.png",
+    "summary": "Mutant sorceress with teleportation and demonic abilities.",
+    "strengths": ["Teleportation", "Magic abilities", "Melee combat"],
+    "limitations": ["Complex management", "Positioning critical", "Demonic corruption"],
+    "abilities": [
+      {
+        "name": "Soul Sword",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 15,
+        "damage": 80,
+        "notes": "Magical melee weapon"
+      }
+    ],
+    "teamUps": ["X-Men synergy with Storm"],
+    "counters": ["Anti-magic", "Crowd control"],
+    "bestMaps": ["Sanctum Sanctorum", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 52.4,
+    "pickRate": 8.9
+  },
+  {
+    "name": "Magneto",
+    "slug": "magneto",
+    "role": "Vanguard",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Magneto.png",
+    "summary": "Master of magnetism controlling metal objects and providing team protection.",
+    "strengths": ["Crowd control", "Area denial", "Metal manipulation"],
+    "limitations": ["Positioning dependent", "Limited vs non-metal", "High skill floor"],
+    "abilities": [
+      {
+        "name": "Magnetic Blast",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 60,
+        "notes": "Magnetic projectiles with metal object interaction"
+      }
+    ],
+    "teamUps": ["X-Men synergy with Storm and Phoenix"],
+    "counters": ["Non-metal heroes", "Overwhelming force"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 57.9,
+    "pickRate": 16.3
+  },
+  {
+
+    "name": "Mantis",
+    "slug": "mantis",
+    "role": "Strategist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Mantis.png",
+    "summary": "Empathic Guardian with healing and sleep abilities.",
+    "strengths": ["Strong healing output", "Sleep utility", "Team support"],
+    "limitations": ["Low mobility", "Vulnerable to flankers", "Positioning dependent"],
+    "abilities": [
+      {
+        "name": "Life Orb",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 45,
+        "notes": "Projectile that heals allies or damages enemies"
+      }
+    ],
+    "teamUps": ["Guardians synergy with Star-Lord"],
+    "counters": ["High mobility", "Burst damage"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 55.8,
+    "pickRate": 17.2
+  },
+  {
+    "name": "Mister Fantastic",
+    "slug": "mister-fantastic",
+    "role": "Strategist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Mister_Fantastic.png",
+    "summary": "Fantastic Four leader with stretching abilities and scientific genius.",
+    "strengths": ["Stretching abilities", "Scientific support", "Versatility"],
+    "limitations": ["Complex management", "Positioning critical", "Vulnerable when extended"],
+    "abilities": [
+      {
+        "name": "Stretch Punch",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 20,
+        "damage": 60,
+        "notes": "Extending limb attacks"
+      }
+    ],
+    "teamUps": ["Fantastic Four synergy with Invisible Woman"],
+    "counters": ["Cutting abilities", "Crowd control"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 48.6,
+    "pickRate": 7.1
+  },
+
+  {
+    "name": "Moon Knight",
+    "slug": "moon-knight",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Moon_Knight.png",
+    "summary": "Lunar-powered vigilante with multiple personalities and combat skills.",
+    "strengths": ["Multiple personalities", "Lunar powers", "Combat versatility"],
+    "limitations": ["Personality switching", "Lunar dependency", "Complex management"],
+    "abilities": [
+      {
+        "name": "Crescent Dart",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 70,
+        "notes": "Lunar-powered projectiles"
+      }
+    ],
+    "teamUps": ["Mystical synergy with Doctor Strange"],
+    "counters": ["Solar abilities", "Mental disruption"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 49.3,
+    "pickRate": 6.8
+  },
+  {
+    "name": "Namor",
+    "slug": "namor",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Namor.png",
+    "summary": "Atlantean king with aquatic abilities and flight.",
+    "strengths": ["Aquatic abilities", "Flight", "Royal powers"],
+    "limitations": ["Water dependency", "Positioning critical", "Vulnerable on land"],
+    "abilities": [
+      {
+        "name": "Trident Strike",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 20,
+        "damage": 75,
+        "notes": "Trident attacks with water effects"
+      }
+    ],
+    "teamUps": ["Aquatic synergy with water-based heroes"],
+    "counters": ["Fire abilities", "Dehydration"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 50.7,
+    "pickRate": 8.2
+  },
+  
+{
+    "name": "Peni Parker",
+    "slug": "peni-parker",
+    "role": "Vanguard",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Peni_Parker.png",
+    "summary": "Anime-style Spider-Girl with mech suit and technological abilities.",
+    "strengths": ["Mech suit", "Technology", "Spider abilities"],
+    "limitations": ["Complex controls", "Mech dependency", "Large hitbox"],
+    "abilities": [
+      {
+        "name": "Mech Blast",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 65,
+        "notes": "Mech-powered projectiles"
+      }
+    ],
+    "teamUps": ["Spider-Verse synergy with Spider-Man"],
+    "counters": ["EMP abilities", "Anti-tech"],
+    "bestMaps": ["Hydra Base", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 54.2,
+    "pickRate": 11.9
+  },
+  {
+    "name": "Phoenix",
+    "slug": "phoenix",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Phoenix.png",
+    "summary": "Cosmic entity with immense psychic powers and resurrection abilities.",
+    "strengths": ["Cosmic powers", "Resurrection", "Psychic abilities"],
+    "limitations": ["Power control", "Corruption risk", "Complex management"],
+    "abilities": [
+      {
+        "name": "Phoenix Force",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 85,
+        "notes": "Cosmic fire projectiles"
+      }
+    ],
+    "teamUps": ["X-Men synergy with Storm and Magneto"],
+    "counters": ["Psychic dampeners", "Overwhelming force"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 62.1,
+    "pickRate": 20.4
+  },
+  {
+
+    "name": "Psylocke",
+    "slug": "psylocke",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_Psylocke.png",
+    "summary": "Psychic ninja with telepathic abilities and martial arts expertise.",
+    "strengths": ["Psychic abilities", "Martial arts", "Stealth"],
+    "limitations": ["Complex combos", "Positioning critical", "Psychic vulnerability"],
+    "abilities": [
+      {
+        "name": "Psychic Blade",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 15,
+        "damage": 80,
+        "notes": "Psychic energy melee attacks"
+      }
+    ],
+    "teamUps": ["X-Men synergy with Storm"],
+    "counters": ["Anti-psychic", "Ranged heroes"],
+    "bestMaps": ["Sanctum Sanctorum", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 51.9,
+    "pickRate": 9.7
+  },
+  {
+    "name": "Rocket Raccoon",
+    "slug": "rocket-raccoon",
+    "role": "Strategist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Rocket_Raccoon.png",
+    "summary": "Genetically enhanced raccoon with advanced weaponry and tactical support.",
+    "strengths": ["Advanced weapons", "Tactical support", "Mobility"],
+    "limitations": ["Small size", "Weapon dependency", "Vulnerable alone"],
+    "abilities": [
+      {
+        "name": "Plasma Rifle",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 60,
+        "notes": "High-tech plasma projectiles"
+      }
+    ],
+    "teamUps": ["Guardians synergy with Groot and Star-Lord"],
+    "counters": ["Melee heroes", "EMP effects"],
+    "bestMaps": ["Hydra Base", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 53.6,
+    "pickRate": 12.8
+  },
+
+  {
+    "name": "Scarlet Witch",
+    "slug": "scarlet-witch",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Scarlet_Witch.png",
+    "summary": "Reality-altering mutant with chaos magic and probability manipulation.",
+    "strengths": ["Reality manipulation", "Chaos magic", "Area control"],
+    "limitations": ["Power instability", "Complex management", "Mental strain"],
+    "abilities": [
+      {
+        "name": "Chaos Bolt",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 75,
+        "notes": "Chaos magic projectiles with random effects"
+      }
+    ],
+    "teamUps": ["Mystical synergy with Doctor Strange"],
+    "counters": ["Reality anchors", "Mental disruption"],
+    "bestMaps": ["Sanctum Sanctorum", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 58.4,
+    "pickRate": 18.9
+  },
+  {
+    "name": "Spider-Man",
+    "slug": "spider-man",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Spider_Man.png",
+    "summary": "High mobility duelist excelling at vertical control and pick potential.",
+    "strengths": ["Mobility", "Pick potential", "Vertical control"],
+    "limitations": ["Cooldown dependency", "Squishy under focus", "Weak into shields"],
+    "abilities": [
+      {
+        "name": "Web Shot",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 65,
+        "notes": "Rapid fire web projectiles with slight spread"
+      }
+    ],
+    "teamUps": ["Spider-Verse synergy with Peni Parker"],
+    "counters": ["Anti-air abilities", "Crowd control"],
+    "bestMaps": ["Hellfire Gala", "Hydra Base"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 54.7,
+    "pickRate": 16.1
+  },
+  {
+  
+  "name": "Squirrel Girl",
+    "slug": "squirrel-girl",
+    "role": "Duelist",
+    "difficulty": "Easy",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Squirrel_Girl.png",
+    "summary": "Unbeatable hero with squirrel companions and surprising effectiveness.",
+    "strengths": ["Squirrel army", "Surprising power", "Versatility"],
+    "limitations": ["Underestimated", "Squirrel dependency", "Chaotic playstyle"],
+    "abilities": [
+      {
+        "name": "Squirrel Swarm",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 20,
+        "damage": 55,
+        "notes": "Squirrel-based attacks"
+      }
+    ],
+    "teamUps": ["Animal synergy with other animal heroes"],
+    "counters": ["Anti-animal abilities", "Area damage"],
+    "bestMaps": ["Hellfire Gala", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 67.8,
+    "pickRate": 25.3
+  },
+  {
+    "name": "Star-Lord",
+    "slug": "star-lord",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Star_Lord.png",
+    "summary": "Guardian leader with dual pistols and tactical abilities.",
+    "strengths": ["Dual pistols", "Leadership", "Mobility"],
+    "limitations": ["Weapon dependency", "Positioning critical", "Team dependent"],
+    "abilities": [
+      {
+        "name": "Element Guns",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 70,
+        "notes": "Dual pistols with elemental effects"
+      }
+    ],
+    "teamUps": ["Guardians synergy with Rocket and Groot"],
+    "counters": ["Disarm abilities", "Close range"],
+    "bestMaps": ["Hydra Base", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 52.1,
+    "pickRate": 13.4
+  },
+
+  {
+    "name": "Storm",
+    "slug": "storm",
+    "role": "Duelist",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Storm.png",
+    "summary": "Weather goddess with elemental control and flight abilities.",
+    "strengths": ["Weather control", "Flight", "Area damage"],
+    "limitations": ["Weather dependency", "Complex management", "Positioning critical"],
+    "abilities": [
+      {
+        "name": "Lightning Bolt",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 80,
+        "notes": "Lightning attacks with chain damage"
+      }
+    ],
+    "teamUps": ["X-Men synergy with Phoenix and Magneto"],
+    "counters": ["Weather control", "Grounding abilities"],
+    "bestMaps": ["Hellfire Gala", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 60.2,
+    "pickRate": 21.7
+  },
+  {
+    "name": "The Punisher",
+    "slug": "the-punisher",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_The_Punisher.png",
+    "summary": "Vigilante with military training and heavy weaponry.",
+    "strengths": ["Heavy weapons", "Military tactics", "Sustained damage"],
+    "limitations": ["No mobility", "Weapon dependency", "Vulnerable to flanking"],
+    "abilities": [
+      {
+        "name": "Assault Rifle",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 75,
+        "notes": "High damage automatic weapon"
+      }
+    ],
+    "teamUps": ["Military synergy with other tactical heroes"],
+    "counters": ["Mobility heroes", "Shields"],
+    "bestMaps": ["Hydra Base", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "B-Tier",
+    "winRate": 50.8,
+    "pickRate": 9.6
+  },
+  {
+   
+ "name": "The Thing",
+    "slug": "the-thing",
+    "role": "Vanguard",
+    "difficulty": "Easy",
+    "portrait": "/images/agents/Marvel_Rivals_gameasset_hero_The_Thing.png",
+    "summary": "Rock-solid Fantastic Four member with incredible strength and durability.",
+    "strengths": ["High durability", "Crowd control", "Initiation"],
+    "limitations": ["Low mobility", "Large hitbox", "Predictable"],
+    "abilities": [
+      {
+        "name": "Rock Punch",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 15,
+        "damage": 85,
+        "notes": "Powerful melee attacks"
+      }
+    ],
+    "teamUps": ["Fantastic Four synergy with Mister Fantastic"],
+    "counters": ["Mobility heroes", "Ranged damage"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 55.4,
+    "pickRate": 14.2
+  },
+  {
+    "name": "Thor",
+    "slug": "thor",
+    "role": "Vanguard",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Thor.png",
+    "summary": "Asgardian god of thunder with hammer abilities and lightning powers.",
+    "strengths": ["Lightning powers", "Hammer abilities", "Durability"],
+    "limitations": ["Hammer dependency", "Predictable patterns", "Large hitbox"],
+    "abilities": [
+      {
+        "name": "Mjolnir Throw",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 25,
+        "damage": 80,
+        "notes": "Hammer throw with return mechanic"
+      }
+    ],
+    "teamUps": ["Asgardian synergy with Loki"],
+    "counters": ["Disarm abilities", "Anti-magic"],
+    "bestMaps": ["Hellfire Gala", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 59.1,
+    "pickRate": 19.3
+  },
+  {
+
+    "name": "Ultron",
+    "slug": "ultron",
+    "role": "Vanguard",
+    "difficulty": "Hard",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Ultron.png",
+    "summary": "AI villain with advanced robotics and self-repair capabilities.",
+    "strengths": ["Self-repair", "Advanced AI", "Adaptability"],
+    "limitations": ["EMP vulnerability", "Complex systems", "Predictable AI"],
+    "abilities": [
+      {
+        "name": "Repulsor Beam",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 30,
+        "damage": 70,
+        "notes": "Energy beam with piercing"
+      }
+    ],
+    "teamUps": ["AI synergy with other tech heroes"],
+    "counters": ["EMP abilities", "Hacking"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 53.8,
+    "pickRate": 11.7
+  },
+  {
+    "name": "Venom",
+    "slug": "venom",
+    "role": "Vanguard",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Venom.png",
+    "summary": "Symbiote entity with shape-shifting abilities and web powers.",
+    "strengths": ["Shape-shifting", "Web abilities", "Regeneration"],
+    "limitations": ["Sound vulnerability", "Fire weakness", "Symbiote dependency"],
+    "abilities": [
+      {
+        "name": "Symbiote Strike",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 20,
+        "damage": 75,
+        "notes": "Shapeshifting melee attacks"
+      }
+    ],
+    "teamUps": ["Symbiote synergy with other symbiotes"],
+    "counters": ["Sound attacks", "Fire abilities"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 54.9,
+    "pickRate": 13.8
+  },
+  {
+  
+  "name": "Winter Soldier",
+    "slug": "winter-soldier",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Winter_Soldier.png",
+    "summary": "Enhanced soldier with cybernetic arm and military training.",
+    "strengths": ["Military training", "Cybernetic arm", "Precision"],
+    "limitations": ["Arm dependency", "Programming conflicts", "Limited range"],
+    "abilities": [
+      {
+        "name": "Sniper Rifle",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 35,
+        "damage": 90,
+        "notes": "High damage precision shots"
+      }
+    ],
+    "teamUps": ["Military synergy with Captain America"],
+    "counters": ["EMP effects", "Close range"],
+    "bestMaps": ["Hydra Base", "Hellfire Gala"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "A-Tier",
+    "winRate": 52.7,
+    "pickRate": 10.9
+  },
+  {
+    "name": "Wolverine",
+    "slug": "wolverine",
+    "role": "Duelist",
+    "difficulty": "Medium",
+    "portrait": "/images/agents/Marvel_Rivals_hero_Wolverine.png",
+    "summary": "Mutant with adamantium claws and regenerative healing factor.",
+    "strengths": ["Regeneration", "Adamantium claws", "Berserker rage"],
+    "limitations": ["Close range", "Magnetic vulnerability", "Rage control"],
+    "abilities": [
+      {
+        "name": "Claw Strike",
+        "type": "Primary",
+        "cooldown": 0,
+        "range": 12,
+        "damage": 90,
+        "notes": "Adamantium claw melee attacks"
+      }
+    ],
+    "teamUps": ["X-Men synergy with Storm and Phoenix"],
+    "counters": ["Magnetic control", "Ranged heroes"],
+    "bestMaps": ["Hydra Base", "Sanctum Sanctorum"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08",
+    "tier": "S-Tier",
+    "winRate": 61.7,
+    "pickRate": 23.5
+  }
+]

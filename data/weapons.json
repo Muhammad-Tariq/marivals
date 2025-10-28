@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Web Shooters",
+    "slug": "web-shooters",
+    "type": "Projectile",
+    "agent": "Spider-Man",
+    "image": "/images/weapons/web-shooters.jpg",
+    "damage": {
+      "base": 65,
+      "headshot": 130,
+      "falloff": { "start": 20, "end": 35 }
+    },
+    "fireRate": 450,
+    "range": 25,
+    "handling": {
+      "recoil": 3,
+      "accuracy": 85,
+      "mobility": 90
+    },
+    "perks": ["Web Swing Synergy", "Vertical Advantage", "Rapid Fire"],
+    "bestUsers": ["Spider-Man"],
+    "mapFit": {
+      "Sanctum Sanctorum": "excellent",
+      "Hydra Base": "good", 
+      "Hellfire Gala": "excellent"
+    },
+    "pros": ["High mobility synergy", "Good damage output", "Versatile range"],
+    "cons": ["Projectile travel time", "Requires aim prediction", "Limited vs armor"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Repulsor Array",
+    "slug": "repulsor-array",
+    "type": "Energy Beam",
+    "agent": "Iron Man",
+    "image": "/images/weapons/repulsor-array.jpg",
+    "damage": {
+      "base": 70,
+      "headshot": 140,
+      "falloff": { "start": 25, "end": 40 }
+    },
+    "fireRate": 300,
+    "range": 30,
+    "handling": {
+      "recoil": 2,
+      "accuracy": 95,
+      "mobility": 70
+    },
+    "perks": ["Hitscan Precision", "Flight Synergy", "Energy Damage"],
+    "bestUsers": ["Iron Man"],
+    "mapFit": {
+      "Hellfire Gala": "excellent",
+      "Hydra Base": "good",
+      "Sanctum Sanctorum": "good"
+    },
+    "pros": ["Hitscan accuracy", "High damage potential", "Good range"],
+    "cons": ["Slower fire rate", "Energy consumption", "Requires positioning"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Gamma Cannon",
+    "slug": "gamma-cannon",
+    "type": "Energy Blast",
+    "agent": "Hulk",
+    "image": "/images/weapons/gamma-cannon.jpg",
+    "damage": {
+      "base": 80,
+      "headshot": 120,
+      "falloff": { "start": 15, "end": 25 }
+    },
+    "fireRate": 200,
+    "range": 20,
+    "handling": {
+      "recoil": 5,
+      "accuracy": 70,
+      "mobility": 50
+    },
+    "perks": ["High Damage", "Area Effect", "Rage Synergy"],
+    "bestUsers": ["Hulk"],
+    "mapFit": {
+      "Hydra Base": "excellent",
+      "Sanctum Sanctorum": "good",
+      "Hellfire Gala": "poor"
+    },
+    "pros": ["Massive damage output", "Area damage", "Synergizes with abilities"],
+    "cons": ["Short range", "Slow fire rate", "Poor mobility"],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  }
+]

@@ -1,0 +1,592 @@
+[
+  {
+    "name": "Symbiotic Surface",
+    "slug": "symbiotic-surface",
+    "biome": "Klyntar",
+    "modes": ["Convergence"],
+    "image": "/images/maps/Marvel_Rivals_map_Symbiotic_Surface.jpg",
+    "description": "A dark alien world covered in symbiotic organisms, featuring organic structures and shifting terrain.",
+    "callouts": [
+      {
+        "name": "Symbiote Pit",
+        "description": "Central depression with symbiotic growths providing cover",
+        "coordinates": { "x": 50, "y": 60 }
+      },
+      {
+        "name": "Organic Spires",
+        "description": "Tall symbiotic structures offering high ground advantage",
+        "coordinates": { "x": 30, "y": 40 }
+      },
+      {
+        "name": "Living Bridge",
+        "description": "Symbiotic bridge connecting two platforms",
+        "coordinates": { "x": 70, "y": 30 }
+      }
+    ],
+    "chokePoints": ["Central Bridge", "Symbiote Tunnels", "Organic Archway"],
+    "flanks": ["Side Caverns", "Upper Ledges", "Symbiote Vents"],
+    "destructibles": ["Symbiotic Walls", "Organic Barriers", "Living Structures"],
+    "recommendedComps": [
+      {
+        "role": "Balanced",
+        "agents": ["Spider-Man", "Venom", "Doctor Strange"],
+        "strategy": "Use symbiotic terrain for mobility and cover"
+      },
+      {
+        "role": "Control",
+        "agents": ["Magneto", "Scarlet Witch", "Mantis"],
+        "strategy": "Control key chokepoints and organic structures"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Hall of Djalia",
+    "slug": "hall-of-djalia",
+    "biome": "Wakanda",
+    "modes": ["Convergence"],
+    "image": "/images/maps/Marvel_Rivals_map_Hall_of_Djalia.jpg",
+    "description": "Sacred Wakandan hall with advanced technology and spiritual elements, featuring vibranium-enhanced architecture.",
+    "callouts": [
+      {
+        "name": "Ancestral Throne",
+        "description": "Central elevated platform with spiritual significance",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Vibranium Pillars",
+        "description": "Technological pillars providing cover and high ground",
+        "coordinates": { "x": 25, "y": 75 }
+      },
+      {
+        "name": "Memory Banks",
+        "description": "Side chambers with holographic displays",
+        "coordinates": { "x": 75, "y": 25 }
+      }
+    ],
+    "chokePoints": ["Main Entrance", "Throne Approach", "Sacred Corridors"],
+    "flanks": ["Side Chambers", "Upper Galleries", "Hidden Passages"],
+    "destructibles": ["Holographic Displays", "Vibranium Panels", "Tech Consoles"],
+    "recommendedComps": [
+      {
+        "role": "Tech",
+        "agents": ["Black Panther", "Iron Man", "Rocket Raccoon"],
+        "strategy": "Utilize Wakandan technology and vibranium structures"
+      },
+      {
+        "role": "Spiritual",
+        "agents": ["Doctor Strange", "Storm", "Adam Warlock"],
+        "strategy": "Leverage mystical elements and ancestral power"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Shin-Shibuya",
+    "slug": "shin-shibuya",
+    "biome": "Tokyo 2099",
+    "modes": ["Convergence"],
+    "image": "/images/maps/Marvel_Rivals_map_Shin-Shibuya.jpg",
+    "description": "Futuristic Tokyo district with neon lights, holographic advertisements, and cyberpunk architecture.",
+    "callouts": [
+      {
+        "name": "Neon Plaza",
+        "description": "Central area with bright holographic displays",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Cyber Towers",
+        "description": "Tall buildings with digital facades",
+        "coordinates": { "x": 30, "y": 70 }
+      },
+      {
+        "name": "Holo Bridge",
+        "description": "Holographic bridge connecting platforms",
+        "coordinates": { "x": 70, "y": 30 }
+      }
+    ],
+    "chokePoints": ["Main Street", "Cyber Alley", "Neon Corridor"],
+    "flanks": ["Rooftop Access", "Underground Tunnels", "Side Streets"],
+    "destructibles": ["Holo Displays", "Neon Signs", "Cyber Panels"],
+    "recommendedComps": [
+      {
+        "role": "Tech",
+        "agents": ["Spider-Man", "Iron Man", "Peni Parker"],
+        "strategy": "Use futuristic technology and vertical mobility"
+      },
+      {
+        "role": "Stealth",
+        "agents": ["Black Widow", "Daredevil", "Moon Knight"],
+        "strategy": "Utilize urban environment and neon cover"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Central Park",
+    "slug": "central-park",
+    "biome": "NYC",
+    "modes": ["Convergence"],
+    "image": "/images/maps/Marvel_Rivals_map_Central_Park.jpg",
+    "description": "Iconic New York City park with natural landscapes mixed with urban elements and superhero battle damage.",
+    "callouts": [
+      {
+        "name": "Bethesda Fountain",
+        "description": "Central fountain area with open sightlines",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Sheep Meadow",
+        "description": "Large open field perfect for team fights",
+        "coordinates": { "x": 30, "y": 30 }
+      },
+      {
+        "name": "Bow Bridge",
+        "description": "Iconic bridge providing elevation advantage",
+        "coordinates": { "x": 70, "y": 70 }
+      }
+    ],
+    "chokePoints": ["Main Pathways", "Bridge Crossings", "Tree Lines"],
+    "flanks": ["Wooded Areas", "Lake Shore", "Hidden Trails"],
+    "destructibles": ["Park Benches", "Lamp Posts", "Statue Bases"],
+    "recommendedComps": [
+      {
+        "role": "Urban",
+        "agents": ["Spider-Man", "Daredevil", "Luke Cage"],
+        "strategy": "Use familiar NYC terrain and urban tactics"
+      },
+      {
+        "role": "Nature",
+        "agents": ["Storm", "Groot", "Squirrel Girl"],
+        "strategy": "Leverage natural elements and park environment"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "K'un-Lun: Heart of Heaven",
+    "slug": "kun-lun-heart-of-heaven",
+    "biome": "Mystical Realm",
+    "modes": ["Convergence"],
+    "image": "/images/maps/Marvel_Rivals_map_Heart_of_Heaven.jpg",
+    "description": "Mystical city in another dimension with ancient architecture, floating platforms, and chi energy.",
+    "callouts": [
+      {
+        "name": "Dragon Gate",
+        "description": "Massive ornate gate with mystical energy",
+        "coordinates": { "x": 50, "y": 20 }
+      },
+      {
+        "name": "Floating Pagoda",
+        "description": "Levitating temple structure in the center",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Chi Springs",
+        "description": "Mystical energy sources providing power",
+        "coordinates": { "x": 25, "y": 75 }
+      }
+    ],
+    "chokePoints": ["Dragon Gate", "Temple Steps", "Mystical Bridges"],
+    "flanks": ["Floating Platforms", "Hidden Passages", "Chi Streams"],
+    "destructibles": ["Ancient Pillars", "Mystical Barriers", "Chi Conduits"],
+    "recommendedComps": [
+      {
+        "role": "Mystical",
+        "agents": ["Iron Fist", "Doctor Strange", "Magik"],
+        "strategy": "Harness mystical energies and ancient power"
+      },
+      {
+        "role": "Martial Arts",
+        "agents": ["Iron Fist", "Daredevil", "Psylocke"],
+        "strategy": "Use martial arts expertise and chi manipulation"
+      }
+    ],
+    "patch": "Season 4",
+    "updatedAt": "2025-01-08"
+  },
+  
+{
+    "name": "Royal Palace",
+    "slug": "royal-palace",
+    "biome": "Asgard",
+    "modes": ["Domination"],
+    "image": "/images/maps/Marvel_Rivals_map_Royal_Palace.jpg",
+    "description": "Majestic Asgardian palace with golden architecture, rainbow bridges, and divine technology.",
+    "callouts": [
+      {
+        "name": "Throne Room",
+        "description": "Grand central hall with Odin's throne",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Rainbow Bridge",
+        "description": "Bifrost bridge connecting palace sections",
+        "coordinates": { "x": 30, "y": 30 }
+      },
+      {
+        "name": "Golden Spires",
+        "description": "Tall towers with Asgardian technology",
+        "coordinates": { "x": 70, "y": 70 }
+      }
+    ],
+    "chokePoints": ["Main Hall", "Bridge Entrance", "Throne Approach"],
+    "flanks": ["Side Chambers", "Upper Balconies", "Hidden Passages"],
+    "destructibles": ["Golden Pillars", "Asgardian Panels", "Divine Statues"],
+    "recommendedComps": [
+      {
+        "role": "Divine",
+        "agents": ["Thor", "Loki", "Hela"],
+        "strategy": "Channel Asgardian power and divine abilities"
+      },
+      {
+        "role": "Royal",
+        "agents": ["Thor", "Black Panther", "Storm"],
+        "strategy": "Use royal authority and commanding presence"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Hell's Heaven",
+    "slug": "hells-heaven",
+    "biome": "Limbo",
+    "modes": ["Domination"],
+    "image": "/images/maps/Marvel_Rivals_map_Hell's_Heaven.jpg",
+    "description": "Demonic realm with twisted architecture, lava flows, and supernatural elements.",
+    "callouts": [
+      {
+        "name": "Demon Throne",
+        "description": "Central demonic seat of power",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Lava Pits",
+        "description": "Molten hazards providing area denial",
+        "coordinates": { "x": 25, "y": 75 }
+      },
+      {
+        "name": "Soul Bridges",
+        "description": "Ethereal bridges over hellish chasms",
+        "coordinates": { "x": 75, "y": 25 }
+      }
+    ],
+    "chokePoints": ["Demon Gates", "Lava Crossings", "Soul Corridors"],
+    "flanks": ["Shadow Paths", "Demonic Tunnels", "Ethereal Platforms"],
+    "destructibles": ["Demonic Pillars", "Soul Crystals", "Hellish Barriers"],
+    "recommendedComps": [
+      {
+        "role": "Supernatural",
+        "agents": ["Magik", "Doctor Strange", "Blade"],
+        "strategy": "Use supernatural abilities and demonic knowledge"
+      },
+      {
+        "role": "Fire Resistant",
+        "agents": ["Human Torch", "Phoenix", "Hulk"],
+        "strategy": "Resist hellish environment and lava hazards"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Birnin T'Challa",
+    "slug": "birnin-tchalla",
+    "biome": "Wakanda",
+    "modes": ["Domination"],
+    "image": "/images/maps/Marvel_Rivals_map_Birnin_T'Challa.jpg",
+    "description": "Capital city of Wakanda featuring advanced technology, vibranium structures, and African architecture.",
+    "callouts": [
+      {
+        "name": "Vibranium Core",
+        "description": "Central power source with energy shields",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Tech Towers",
+        "description": "Advanced Wakandan technology centers",
+        "coordinates": { "x": 30, "y": 70 }
+      },
+      {
+        "name": "Panther Statue",
+        "description": "Massive Black Panther monument",
+        "coordinates": { "x": 70, "y": 30 }
+      }
+    ],
+    "chokePoints": ["City Gates", "Tech Corridors", "Vibranium Passages"],
+    "flanks": ["Rooftop Paths", "Underground Tunnels", "Tech Vents"],
+    "destructibles": ["Tech Panels", "Vibranium Barriers", "Holographic Displays"],
+    "recommendedComps": [
+      {
+        "role": "Wakandan",
+        "agents": ["Black Panther", "Storm", "Iron Man"],
+        "strategy": "Utilize advanced technology and vibranium advantages"
+      },
+      {
+        "role": "Tech Savvy",
+        "agents": ["Iron Man", "Rocket Raccoon", "Peni Parker"],
+        "strategy": "Interface with Wakandan technology systems"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Krakoa (Hellfire Gala)",
+    "slug": "krakoa-hellfire-gala",
+    "biome": "Living Island",
+    "modes": ["Domination"],
+    "image": "/images/maps/Marvel_Rivals_map_Krakoa.jpg",
+    "description": "Living mutant island during the Hellfire Gala, featuring organic architecture and mutant technology.",
+    "callouts": [
+      {
+        "name": "Gala Pavilion",
+        "description": "Central party area with elegant decorations",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Living Walls",
+        "description": "Organic barriers that can shift and move",
+        "coordinates": { "x": 25, "y": 25 }
+      },
+      {
+        "name": "Mutant Gardens",
+        "description": "Beautiful but dangerous plant life",
+        "coordinates": { "x": 75, "y": 75 }
+      }
+    ],
+    "chokePoints": ["Gala Entrance", "Living Corridors", "Organic Bridges"],
+    "flanks": ["Garden Paths", "Root Tunnels", "Canopy Routes"],
+    "destructibles": ["Decorative Elements", "Organic Structures", "Plant Barriers"],
+    "recommendedComps": [
+      {
+        "role": "Mutant",
+        "agents": ["Storm", "Magneto", "Phoenix"],
+        "strategy": "Harness mutant powers and island connection"
+      },
+      {
+        "role": "Nature",
+        "agents": ["Storm", "Groot", "Poison Ivy"],
+        "strategy": "Work with living island and organic elements"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Celestial Husk",
+    "slug": "celestial-husk",
+    "biome": "Cosmic",
+    "modes": ["Domination"],
+    "image": "/images/maps/Marvel_Rivals_map_Celestial_Husk.jpg",
+    "description": "Remains of a dead Celestial with cosmic energy, massive scale, and otherworldly architecture.",
+    "callouts": [
+      {
+        "name": "Celestial Core",
+        "description": "Central power source with cosmic energy",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Neural Pathways",
+        "description": "Organic corridors within the Celestial",
+        "coordinates": { "x": 30, "y": 70 }
+      },
+      {
+        "name": "Cosmic Chambers",
+        "description": "Rooms filled with celestial technology",
+        "coordinates": { "x": 70, "y": 30 }
+      }
+    ],
+    "chokePoints": ["Neural Junctions", "Cosmic Barriers", "Energy Conduits"],
+    "flanks": ["Organic Tunnels", "Energy Streams", "Celestial Vents"],
+    "destructibles": ["Cosmic Crystals", "Energy Barriers", "Celestial Tech"],
+    "recommendedComps": [
+      {
+        "role": "Cosmic",
+        "agents": ["Adam Warlock", "Phoenix", "Silver Surfer"],
+        "strategy": "Channel cosmic power and celestial energy"
+      },
+      {
+        "role": "Energy Manipulation",
+        "agents": ["Scarlet Witch", "Doctor Strange", "Storm"],
+        "strategy": "Manipulate cosmic energies and celestial systems"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  
+{
+    "name": "Yggdrasill Path",
+    "slug": "yggdrasill-path",
+    "biome": "World Tree",
+    "modes": ["Convoy"],
+    "image": "/images/maps/Marvel_Rivals_map_Yggdrasill_Path.jpg",
+    "description": "Pathway along the World Tree connecting the Nine Realms, featuring mystical bridges and cosmic energy.",
+    "callouts": [
+      {
+        "name": "World Tree Trunk",
+        "description": "Massive tree trunk providing central cover",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Realm Bridges",
+        "description": "Mystical bridges connecting different areas",
+        "coordinates": { "x": 25, "y": 75 }
+      },
+      {
+        "name": "Cosmic Roots",
+        "description": "Glowing tree roots with mystical energy",
+        "coordinates": { "x": 75, "y": 25 }
+      }
+    ],
+    "chokePoints": ["Main Path", "Bridge Crossings", "Root Tangles"],
+    "flanks": ["Branch Paths", "Root Tunnels", "Mystical Portals"],
+    "destructibles": ["Branch Barriers", "Mystical Crystals", "Root Walls"],
+    "recommendedComps": [
+      {
+        "role": "Mystical",
+        "agents": ["Thor", "Loki", "Doctor Strange"],
+        "strategy": "Navigate mystical pathways and cosmic energies"
+      },
+      {
+        "role": "Mobile",
+        "agents": ["Spider-Man", "Storm", "Iron Man"],
+        "strategy": "Use mobility to traverse complex tree structure"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Spider-Islands",
+    "slug": "spider-islands",
+    "biome": "Archipelago",
+    "modes": ["Convoy"],
+    "image": "/images/maps/Marvel_Rivals_map_Spider-Islands.jpg",
+    "description": "Chain of islands connected by web bridges, featuring tropical environments and spider-themed architecture.",
+    "callouts": [
+      {
+        "name": "Central Web",
+        "description": "Large web structure connecting main islands",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Spider Caves",
+        "description": "Underground caverns with web formations",
+        "coordinates": { "x": 30, "y": 30 }
+      },
+      {
+        "name": "Lighthouse",
+        "description": "Tall structure providing overwatch position",
+        "coordinates": { "x": 70, "y": 70 }
+      }
+    ],
+    "chokePoints": ["Web Bridges", "Island Connections", "Cave Entrances"],
+    "flanks": ["Underwater Tunnels", "Cliff Paths", "Web Swings"],
+    "destructibles": ["Web Structures", "Wooden Bridges", "Rock Formations"],
+    "recommendedComps": [
+      {
+        "role": "Web-Slingers",
+        "agents": ["Spider-Man", "Spider-Gwen", "Miles Morales"],
+        "strategy": "Master web-swinging and island traversal"
+      },
+      {
+        "role": "Aquatic",
+        "agents": ["Namor", "Storm", "Hulk"],
+        "strategy": "Use water elements and island environment"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Midtown",
+    "slug": "midtown",
+    "biome": "NYC",
+    "modes": ["Convoy"],
+    "image": "/images/maps/Marvel_Rivals_map_Midtown.png",
+    "description": "Busy Manhattan district with skyscrapers, traffic, and classic superhero battle locations.",
+    "callouts": [
+      {
+        "name": "Times Square",
+        "description": "Iconic intersection with bright billboards",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Skyscraper Rooftops",
+        "description": "High vantage points on building tops",
+        "coordinates": { "x": 25, "y": 25 }
+      },
+      {
+        "name": "Street Level",
+        "description": "Ground floor with traffic and pedestrians",
+        "coordinates": { "x": 75, "y": 75 }
+      }
+    ],
+    "chokePoints": ["Main Streets", "Building Entrances", "Intersection Points"],
+    "flanks": ["Rooftop Routes", "Alleyways", "Subway Entrances"],
+    "destructibles": ["Billboards", "Street Lights", "Vehicle Barriers"],
+    "recommendedComps": [
+      {
+        "role": "Street Level",
+        "agents": ["Spider-Man", "Daredevil", "Luke Cage"],
+        "strategy": "Use urban environment and street-level tactics"
+      },
+      {
+        "role": "Aerial",
+        "agents": ["Iron Man", "Storm", "Human Torch"],
+        "strategy": "Dominate skyscrapers and aerial combat"
+      }
+    ],
+    "patch": "Season 1",
+    "updatedAt": "2025-01-08"
+  },
+  {
+    "name": "Arakko",
+    "slug": "arakko",
+    "biome": "Martian Desert",
+    "modes": ["Convoy"],
+    "image": "/images/maps/Marvel_Rivals_map_Arakko.jpg",
+    "description": "Ancient mutant city on Mars with alien architecture, red desert landscapes, and advanced technology.",
+    "callouts": [
+      {
+        "name": "Martian Citadel",
+        "description": "Central fortress with alien technology",
+        "coordinates": { "x": 50, "y": 50 }
+      },
+      {
+        "name": "Red Canyons",
+        "description": "Natural rock formations providing cover",
+        "coordinates": { "x": 30, "y": 70 }
+      },
+      {
+        "name": "Tech Spires",
+        "description": "Advanced alien communication towers",
+        "coordinates": { "x": 70, "y": 30 }
+      }
+    ],
+    "chokePoints": ["Citadel Gates", "Canyon Passes", "Tech Corridors"],
+    "flanks": ["Desert Paths", "Underground Tunnels", "Cliff Routes"],
+    "destructibles": ["Alien Tech", "Rock Formations", "Energy Barriers"],
+    "recommendedComps": [
+      {
+        "role": "Mutant",
+        "agents": ["Storm", "Magneto", "Phoenix"],
+        "strategy": "Harness mutant powers in alien environment"
+      },
+      {
+        "role": "Alien Tech",
+        "agents": ["Iron Man", "Rocket Raccoon", "Adam Warlock"],
+        "strategy": "Interface with advanced alien technology"
+      }
+    ],
+    "patch": "Season 2.5",
+    "updatedAt": "2025-01-08"
+  }
+]
