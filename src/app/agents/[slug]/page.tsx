@@ -3,9 +3,9 @@ import { getAgentBySlug, getAgents } from '@/lib/data/agents';
 import AgentDetailClient from './AgentDetailClient';
 
 interface AgentDetailPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 // Generate static params for all agents

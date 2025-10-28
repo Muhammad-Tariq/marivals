@@ -4,9 +4,9 @@ import { getGuideBySlug, getGuides } from '@/lib/data/content';
 import GuideDetailClient from './GuideDetailClient';
 
 interface GuidePageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {

@@ -4,9 +4,9 @@ import { getMapBySlug, getMaps } from '@/lib/data/maps';
 import MapDetailClient from './MapDetailClient';
 
 interface MapPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {

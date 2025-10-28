@@ -4,9 +4,9 @@ import { getWeaponBySlug, getWeapons } from '@/lib/data/weapons';
 import WeaponDetailClient from './WeaponDetailClient';
 
 interface WeaponPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
