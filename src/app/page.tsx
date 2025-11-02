@@ -17,6 +17,8 @@ import { getMaps } from '@/lib/data/maps';
 import { getWeapons } from '@/lib/data/weapons';
 import { getTrendingContent } from '@/lib/data/index';
 import { Agent, Guide } from '@/lib/types';
+import LeaderboardPreview from '@/components/LeaderboardPreview';
+import leaderboardData from '../../data/leaderboard.json';
 
 export default function Home() {
   const [featuredAgents, setFeaturedAgents] = useState<Agent[]>([]);
@@ -360,77 +362,10 @@ export default function Home() {
           </section>
         </ContentTransition>
 
-        {/* Additional Stats Display */}
+        {/* Global Leaderboard */}
         <ContentTransition delay={0.3}>
           <section className="mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center">Community Stats</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                whileHover={{ scale: 1.02 }}
-                className="bg-[#18181B] border border-zinc-800 rounded-lg p-6 hover:bg-zinc-800/50 transition-colors hover:border-[#E10600]/50"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-zinc-400 text-sm font-medium">Total Players</span>
-                </div>
-                <div className="flex items-end justify-between">
-                  <CountUp value={2850000} size="lg" />
-                  <motion.div
-                    initial={{ opacity: 0, x: 10 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.5 }}
-                    className="text-sm font-medium flex items-center text-green-400"
-                  >
-                    ↗+15%
-                  </motion.div>
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                whileHover={{ scale: 1.02 }}
-                className="bg-[#18181B] border border-zinc-800 rounded-lg p-6 hover:bg-zinc-800/50 transition-colors hover:border-[#E10600]/50"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-zinc-400 text-sm font-medium">Active Players</span>
-                </div>
-                <div className="flex items-end justify-between">
-                  <CountUp value={485000} size="lg" />
-                  <motion.div
-                    initial={{ opacity: 0, x: 10 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.5 }}
-                    className="text-sm font-medium flex items-center text-green-400"
-                  >
-                    ↗+8%
-                  </motion.div>
-                </div>
-              </motion.div>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                whileHover={{ scale: 1.02 }}
-                className="bg-[#18181B] border border-zinc-800 rounded-lg p-6 hover:bg-zinc-800/50 transition-colors hover:border-[#E10600]/50"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-zinc-400 text-sm font-medium">Hub Visitors</span>
-                </div>
-                <div className="flex items-end justify-between">
-                  <CountUp value={125000} size="lg" />
-                  <motion.div
-                    initial={{ opacity: 0, x: 10 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: 0.5 }}
-                    className="text-sm font-medium flex items-center text-green-400"
-                  >
-                    ↗+22%
-                  </motion.div>
-                </div>
-              </motion.div>
-            </div>
+            <LeaderboardPreview data={leaderboardData} />
           </section>
         </ContentTransition>
 

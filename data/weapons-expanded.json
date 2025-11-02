@@ -4,7 +4,7 @@
     "slug": "web-shooters",
     "type": "Projectile Launcher",
     "agent": "Spider-Man",
-    "image": "/images/weapons/Web Shooters.webp",
+    "image": "/images/weapons/web-shooters.jpg",
     "damage": {
       "base": 65,
       "headshot": 130,
@@ -35,7 +35,7 @@
     "slug": "repulsor-array",
     "type": "Energy Beam",
     "agent": "Iron Man",
-    "image": "/images/weapons/Repulsor Array.jfif",
+    "image": "/images/weapons/repulsor-array.jpg",
     "damage": {
       "base": 70,
       "headshot": 140,
@@ -66,7 +66,7 @@
     "slug": "gamma-cannon",
     "type": "Energy Blast",
     "agent": "Hulk",
-    "image": "/images/weapons/Gamma Cannon.png",
+    "image": "/images/weapons/gamma-cannon.jpg",
     "damage": {
       "base": 80,
       "headshot": 120,
@@ -97,7 +97,7 @@
     "slug": "mjolnir",
     "type": "Melee/Thrown Weapon",
     "agent": "Thor",
-    "image": "/images/weapons/Mjolnir.webp",
+    "image": "/images/weapons/mjolnir.jpg",
     "damage": {
       "base": 95,
       "headshot": 150,
@@ -128,7 +128,7 @@
     "slug": "vibranium-claws",
     "type": "Melee Weapon",
     "agent": "Black Panther",
-    "image": "/images/weapons/Vibranium Claws.avif",
+    "image": "/images/weapons/vibranium-claws.jpg",
     "damage": {
       "base": 85,
       "headshot": 140,
@@ -159,7 +159,7 @@
     "slug": "widows-bite",
     "type": "Dual Pistols",
     "agent": "Black Widow",
-    "image": "/images/weapons/Widow's Bite.avif",
+    "image": "/images/weapons/widows-bite.jpg",
     "damage": {
       "base": 60,
       "headshot": 135,
@@ -190,7 +190,7 @@
     "slug": "hawkeyes-bow",
     "type": "Precision Bow",
     "agent": "Hawkeye",
-    "image": "/images/weapons/Hawkeye's Bow.avif",
+    "image": "/images/weapons/hawkeyes-bow.jpg",
     "damage": {
       "base": 120,
       "headshot": 250,
@@ -221,7 +221,7 @@
     "slug": "pym-particles",
     "type": "Size Manipulation Device",
     "agent": "Ant-Man",
-    "image": "/images/weapons/Pym Particles.jfif",
+    "image": "/images/weapons/pym-particles.jpg",
     "damage": {
       "base": 55,
       "headshot": 110,
@@ -252,7 +252,7 @@
     "slug": "captain-americas-shield",
     "type": "Thrown/Melee Weapon",
     "agent": "Captain America",
-    "image": "/images/weapons/Captain America's Shield.avif",
+    "image": "/images/weapons/captain-americas-shield.jpg",
     "damage": {
       "base": 75,
       "headshot": 135,
@@ -283,7 +283,7 @@
     "slug": "stormbreaker",
     "type": "Axe/Thrown Weapon",
     "agent": "Thor",
-    "image": "/images/weapons/Jarnbjorn_.webp",
+    "image": "/images/weapons/stormbreaker.jpg",
     "damage": {
       "base": 110,
       "headshot": 180,

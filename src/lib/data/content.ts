@@ -173,33 +173,190 @@ Building effective team compositions is essential for competitive success in Mar
     updatedAt: "2025-01-05T00:00:00Z",
     author: "Marvel Rivals HQ",
     featured: false
+  },
+  {
+    title: "Iron Man Complete Guide - Master the Armored Avenger",
+    slug: "iron-man-complete-guide",
+    excerpt: "Dominate the skies with Iron Man. Learn optimal flight patterns, energy management, and how to maximize your repulsor damage in this comprehensive duelist guide.",
+    image: "/images/agents/Marvel_Rivals_hero_Iron_Man.png",
+    body: `# Iron Man Complete Guide
+
+Tony Stark's Iron Man suit combines devastating firepower with unmatched aerial mobility, making him one of the most versatile duelists in Marvel Rivals. This comprehensive guide covers everything from basic flight mechanics to advanced energy management techniques.
+
+## Why Play Iron Man?
+
+- **Aerial Dominance**: Control the high ground with superior flight capabilities
+- **Consistent Damage**: Hitscan repulsors ensure reliable damage output
+- **Versatility**: Effective at multiple ranges and situations
+- **High Skill Ceiling**: Rewards mechanical skill and positioning mastery
+
+## Abilities Breakdown
+
+### Repulsor Blast (Primary Fire)
+- **Damage**: 70 per shot
+- **Fire Rate**: 300 RPM
+- **Range**: 30m effective range
+- **Notes**: Hitscan weapon with perfect accuracy
+
+### Unibeam (Secondary Fire)
+- **Damage**: 150 total damage
+- **Cooldown**: 8 seconds
+- **Range**: 25m beam
+- **Notes**: Channeled beam that pierces enemies
+
+### Armor Overdrive (Utility)
+- **Cooldown**: 12 seconds
+- **Duration**: 4 seconds
+- **Notes**: Increased movement speed and damage reduction
+
+### Invincible (Ultimate)
+- **Cooldown**: 120 seconds
+- **Duration**: 8 seconds
+- **Notes**: Massive damage boost and temporary invulnerability`,
+    tags: ["duelist", "flight", "energy", "advanced"],
+    relatedAgents: ["Iron Man"],
+    relatedMaps: ["Hellfire Gala", "Hydra Base", "Midtown"],
+    difficulty: "Hard",
+    readTime: 12,
+    patch: "Season 1",
+    updatedAt: "2025-01-08T00:00:00Z",
+    author: "Marvel Rivals HQ",
+    featured: true
+  },
+  {
+    title: "Thor Complete Guide - God of Thunder Mastery",
+    slug: "thor-complete-guide",
+    excerpt: "Unleash the power of Asgard with Thor. Master Mjolnir throws, lightning strikes, and devastating melee combat in this complete vanguard guide.",
+    image: "/images/agents/Marvel_Rivals_hero_Thor.png",
+    body: `# Thor Complete Guide
+
+The God of Thunder brings overwhelming power and crowd control to Marvel Rivals. As a vanguard, Thor excels at initiating fights, disrupting enemy formations, and protecting his team while dealing massive damage.
+
+## Why Play Thor?
+
+- **High Damage Output**: Devastating melee and ranged attacks
+- **Crowd Control**: Multiple abilities to disrupt enemies
+- **Tankiness**: High health pool with self-sustain
+- **Team Utility**: Provides space and protection for allies
+- **Versatility**: Effective in both brawl and poke scenarios
+
+## Abilities Breakdown
+
+### Mjolnir Strike (Primary)
+- **Damage**: 85 per swing
+- **Fire Rate**: 60 swings per minute
+- **Range**: 5m melee range
+- **Notes**: Wide arc melee attacks
+
+### Mjolnir Throw (Secondary)
+- **Damage**: 120 impact damage
+- **Cooldown**: 6 seconds
+- **Range**: 30m
+- **Notes**: Throws hammer that returns, stunning enemies
+
+### Lightning Blessing (Utility)
+- **Cooldown**: 10 seconds
+- **Duration**: 5 seconds
+- **Notes**: Grants bonus health and movement speed
+
+### God of Thunder (Ultimate)
+- **Cooldown**: 120 seconds
+- **Duration**: 6 seconds
+- **Notes**: Massive AoE lightning damage and crowd control`,
+    tags: ["vanguard", "melee", "tank", "intermediate"],
+    relatedAgents: ["Thor"],
+    relatedMaps: ["Royal Palace", "Yggdrasill Path", "Arakko"],
+    difficulty: "Medium",
+    readTime: 10,
+    patch: "Season 1",
+    updatedAt: "2025-01-08T00:00:00Z",
+    author: "Marvel Rivals HQ",
+    featured: true
   }
 ];
 
 const sampleMasterClasses: MasterClass[] = [
   {
-    title: "Duelist Mastery Course",
-    slug: "duelist-mastery-course",
-    description: "Complete course covering all aspects of playing duelist heroes effectively in Marvel Rivals.",
+    title: "Vanguard Mastery: Complete Tank Guide for Marvel Rivals",
+    slug: "vanguard-mastery",
+    description: "Master the art of tanking in Marvel Rivals with this comprehensive Vanguard course. Learn positioning, engagement timing, ultimate usage, and team protection strategies to dominate the frontline.",
     chapters: [
-      {
-        id: "fundamentals",
-        title: "Duelist Fundamentals",
-        content: "Learn the core principles of playing duelist heroes including positioning, target prioritization, and ability usage."
-      },
-      {
-        id: "advanced-techniques",
-        title: "Advanced Techniques",
-        content: "Master advanced duelist techniques including animation canceling, combo execution, and team fight positioning."
-      }
+      { id: "chapter-1", title: "Understanding the Vanguard Role", duration: 25, content: "" },
+      { id: "chapter-2", title: "Positioning and Space Control", duration: 30, content: "" },
+      { id: "chapter-3", title: "Engagement Timing and Initiation", duration: 25, content: "" },
+      { id: "chapter-4", title: "Protecting Your Team", duration: 30, content: "" },
+      { id: "chapter-5", title: "Ultimate Management and Game-Winning Plays", duration: 35, content: "" },
+      { id: "chapter-6", title: "Advanced Vanguard Techniques", duration: 35, content: "" }
     ],
-    difficulty: "Hard",
-    estimatedTime: 120,
-    tags: ["duelist", "advanced", "positioning"],
+    difficulty: "Medium",
+    estimatedTime: 180,
+    tags: ["Vanguard", "Tank", "Frontline", "Team Protection", "Positioning", "Ultimate Management"],
     patch: "Season 1",
     updatedAt: "2025-01-08T00:00:00Z",
-    author: "Marvel Rivals HQ",
-    featured: true
+    author: "ProTank_Marvel",
+    featured: true,
+    role: "Vanguard"
+  },
+  {
+    title: "Strategist Mastery: Support and Utility Excellence",
+    slug: "strategist-mastery",
+    description: "Become an elite support player with this comprehensive Strategist course. Master healing priorities, positioning, ultimate timing, and game-changing utility plays.",
+    chapters: [
+      { id: "chapter-1", title: "The Strategist Mindset", duration: 25, content: "" },
+      { id: "chapter-2", title: "Healing Priorities and Resource Management", duration: 30, content: "" },
+      { id: "chapter-3", title: "Positioning for Maximum Impact", duration: 30, content: "" },
+      { id: "chapter-4", title: "Ultimate Timing and Coordination", duration: 30, content: "" },
+      { id: "chapter-5", title: "Advanced Utility Usage", duration: 30, content: "" },
+      { id: "chapter-6", title: "Shotcalling and Team Leadership", duration: 30, content: "" }
+    ],
+    difficulty: "Medium",
+    estimatedTime: 175,
+    tags: ["Strategist", "Support", "Healing", "Utility", "Team Coordination", "Shotcalling"],
+    patch: "Season 1",
+    updatedAt: "2025-01-08T00:00:00Z",
+    author: "HealMaster_Pro",
+    featured: true,
+    role: "Strategist"
+  },
+  {
+    title: "Duelist Mastery: Damage Dealer Excellence",
+    slug: "duelist-mastery",
+    description: "Dominate as a damage dealer with this comprehensive Duelist course. Learn target selection, positioning, ability combos, and how to carry games through superior mechanical skill.",
+    chapters: [
+      { id: "chapter-1", title: "The Duelist Role and Mindset", duration: 25, content: "" },
+      { id: "chapter-2", title: "Target Selection and Priority", duration: 30, content: "" },
+      { id: "chapter-3", title: "Positioning and Angles", duration: 30, content: "" },
+      { id: "chapter-4", title: "Ability Combos and Mechanical Execution", duration: 30, content: "" },
+      { id: "chapter-5", title: "Ultimate Usage and Team Fight Impact", duration: 30, content: "" },
+      { id: "chapter-6", title: "Advanced Duelist Techniques", duration: 25, content: "" }
+    ],
+    difficulty: "Hard",
+    estimatedTime: 170,
+    tags: ["Duelist", "DPS", "Mechanics", "Positioning", "Target Selection", "Carry Potential"],
+    patch: "Season 1",
+    updatedAt: "2025-01-08T00:00:00Z",
+    author: "FragMaster_Elite",
+    featured: true,
+    role: "Duelist"
+  },
+  {
+    title: "Competitive Fundamentals: From Casual to Ranked",
+    slug: "competitive-fundamentals",
+    description: "Build a strong foundation for competitive play with this essential course covering game sense, communication, team coordination, and mental approach to ranked climbing.",
+    chapters: [
+      { id: "chapter-1", title: "Competitive Mindset and Mental Game", duration: 25, content: "" },
+      { id: "chapter-2", title: "Game Sense and Map Awareness", duration: 25, content: "" },
+      { id: "chapter-3", title: "Communication and Shotcalling", duration: 20, content: "" },
+      { id: "chapter-4", title: "Team Composition and Synergies", duration: 25, content: "" },
+      { id: "chapter-5", title: "Ranked Climbing Strategies", duration: 25, content: "" }
+    ],
+    difficulty: "Easy",
+    estimatedTime: 120,
+    tags: ["Fundamentals", "Ranked", "Communication", "Game Sense", "Team Play", "Mental Game"],
+    patch: "Season 1",
+    updatedAt: "2025-01-08T00:00:00Z",
+    author: "CoachRivals_Pro",
+    featured: false
   }
 ];
 
@@ -333,6 +490,13 @@ export function getMasterClasses(
   });
 
   return masterClasses;
+}
+
+/**
+ * Get all master classes (alias for getMasterClasses for compatibility)
+ */
+export function getAllMasterClasses(): MasterClass[] {
+  return getMasterClasses();
 }
 
 /**

@@ -18,7 +18,7 @@ function loadWeapons(): Weapon[] {
   try {
     for (const weapon of weaponsData) {
       // Skip validation for now and use data directly with type assertion
-      validatedWeapons.push(weapon as Weapon);
+      validatedWeapons.push(weapon as unknown as Weapon);
     }
   } catch (error) {
     console.error('Error loading weapons:', error);

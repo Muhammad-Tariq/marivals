@@ -70,6 +70,7 @@ export interface Weapon {
   mapFit: Record<string, 'excellent' | 'good' | 'poor'>;
   pros: string[];
   cons: string[];
+  description?: string;
   patch: string;
   updatedAt: string;
 }
@@ -188,6 +189,7 @@ export interface MasterClassChapter {
   id: string;
   title: string;
   content: string;
+  duration?: number;
   videoUrl?: string;
   quiz?: {
     questions: Array<{
@@ -207,6 +209,7 @@ export interface MasterClass {
   title: string;
   slug: string;
   description: string;
+  content?: string;
   chapters: MasterClassChapter[];
   difficulty: Difficulty;
   estimatedTime: number;
@@ -215,6 +218,7 @@ export interface MasterClass {
   updatedAt: string;
   author: string;
   featured?: boolean;
+  role?: Role;
 }
 
 // Filter and search types
