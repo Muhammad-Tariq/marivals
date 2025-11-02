@@ -45,7 +45,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Community */}
+          {/* Community & Contact */}
           <div>
             <h3 className="text-white font-semibold mb-4">Community</h3>
             <ul className="space-y-2">
@@ -54,6 +54,16 @@ export default function Footer() {
               <li><a href="#" className="text-zinc-400 hover:text-[#E10600] transition-colors">Discord</a></li>
               <li><a href="#" className="text-zinc-400 hover:text-[#E10600] transition-colors">Reddit</a></li>
             </ul>
+            <div className="mt-6">
+              <h4 className="text-white font-semibold mb-2 text-sm">Contact</h4>
+              <div className="text-zinc-400 text-xs space-y-1">
+                <p>privacy@marvelrivalz.com</p>
+                <p>legal@marvelrivalz.com</p>
+                <p className="mt-2">Apt 504, 5th Floor</p>
+                <p>Gulberg Heights</p>
+                <p>Islamabad, Pakistan 44000</p>
+              </div>
+            </div>
           </div>
         </div>
 

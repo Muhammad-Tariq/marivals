@@ -170,8 +170,8 @@ export default function PrivacyPage() {
                     If you have any questions about this Privacy Policy or our privacy practices, please contact us:
                   </p>
                   <div className="text-zinc-300 space-y-2">
-                    <p><strong>Email:</strong> privacy@marvelrivalshq.com</p>
-                    <p><strong>Address:</strong> Marvel Rivals HQ, 123 Gaming Street, Digital City, DC 12345</p>
+                    <p><strong>Email:</strong> privacy@marvelrivalz.com</p>
+                    <p><strong>Address:</strong> Apt 504, 5th Floor, Gulberg Heights, Gulberg Greens, Islamabad, Pakistan, 44000</p>
                   </div>
                 </CardContent>
               </Card>

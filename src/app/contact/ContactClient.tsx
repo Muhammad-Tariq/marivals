@@ -171,11 +171,16 @@ export default function ContactClient() {
                   <CardContent className="space-y-3">
                     <div className="flex items-center gap-2">
                       <Mail className="w-4 h-4 text-[#E10600]" />
-                      <span className="text-sm">contact@marvelrivalshq.com</span>
+                      <span className="text-sm">privacy@marvelrivalz.com</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <MessageSquare className="w-4 h-4 text-[#E10600]" />
-                      <span className="text-sm">Discord Community</span>
+                      <Mail className="w-4 h-4 text-[#E10600]" />
+                      <span className="text-sm">legal@marvelrivalz.com</span>
+                    </div>
+                    <div className="text-xs text-zinc-400 mt-2">
+                      <p>Apt 504, 5th Floor</p>
+                      <p>Gulberg Heights, Gulberg Greens</p>
+                      <p>Islamabad, Pakistan, 44000</p>
                     </div>
                   </CardContent>
                 </Card>

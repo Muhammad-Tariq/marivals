@@ -29,7 +29,7 @@ export default function TermsPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-zinc-300 leading-relaxed">
-                    By accessing and using Marvel Rivals HQ (&quot;the Service&quot;), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service. These Terms of Service (&quot;Terms&quot;) govern your use of our website located at marvelrivalshq.com and any related services provided by Marvel Rivals HQ.
+                    By accessing and using Marvel Rivals HQ (&quot;the Service&quot;), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service. These Terms of Service (&quot;Terms&quot;) govern your use of our website located at marvelrivalz.com and any related services provided by Marvel Rivals HQ.
                   </p>
                 </CardContent>
               </Card>
@@ -201,8 +201,8 @@ export default function TermsPage() {
                     If you have any questions about these Terms of Service, please contact us:
                   </p>
                   <div className="text-zinc-300 space-y-2">
-                    <p><strong>Email:</strong> legal@marvelrivalshq.com</p>
-                    <p><strong>Address:</strong> Marvel Rivals HQ, 123 Gaming Street, Digital City, DC 12345</p>
+                    <p><strong>Email:</strong> legal@marvelrivalz.com</p>
+                    <p><strong>Address:</strong> Apt 504, 5th Floor, Gulberg Heights, Gulberg Greens, Islamabad, Pakistan, 44000</p>
                   </div>
                 </CardContent>
               </Card>

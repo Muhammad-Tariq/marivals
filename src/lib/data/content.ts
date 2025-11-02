@@ -1,6 +1,6 @@
 import { Guide, MasterClass, GuideFilters } from '@/lib/types';
 
-// Sample data for now - in production this would come from a CMS or API
+// Only include guides that have corresponding MDX files
 const sampleGuides: Guide[] = [
   {
     title: "Spider-Man Complete Guide",
@@ -56,123 +56,6 @@ Spider-Man is one of the most mobile duelists in Marvel Rivals, excelling at ver
     updatedAt: "2025-01-08T00:00:00Z",
     author: "Marvel Rivals HQ",
     featured: true
-  },
-  {
-    title: "Map Control Fundamentals",
-    slug: "map-control-fundamentals",
-    excerpt: "Essential positioning and map awareness tactics for competitive play.",
-    image: "/images/maps/Marvel_Rivals_map_Central_Park.jpg",
-    body: `# Map Control Fundamentals
-
-Understanding map control is crucial for success in Marvel Rivals. This guide covers the essential concepts of positioning, map awareness, and territorial control.
-
-## Key Concepts
-
-### High Ground Advantage
-- Always prioritize high ground positions when possible
-- High ground provides better sightlines and escape routes
-- Forces enemies to look up, limiting their awareness
-
-### Chokepoint Control
-- Identify and control key chokepoints on each map
-- Use area denial abilities to block enemy movement
-- Coordinate with team to maintain chokepoint pressure
-
-### Rotation Timing
-- Learn optimal rotation paths between objectives
-- Time rotations with team ability cooldowns
-- Avoid rotating through enemy-controlled territory
-
-## Map-Specific Tips
-
-### Sanctum Sanctorum
-- Control the central platform for map dominance
-- Use the side rooms for flanking opportunities
-- Watch for enemy rotations through the portal areas
-
-### Hydra Base
-- The upper walkways provide excellent overwatch positions
-- Control the central bridge to limit enemy movement
-- Use the side corridors for safe rotations`,
-    tags: ["strategy", "positioning", "intermediate"],
-    relatedAgents: [],
-    relatedMaps: ["Hydra Base", "Sanctum Sanctorum"],
-    difficulty: "Easy",
-    readTime: 6,
-    patch: "Season 1",
-    updatedAt: "2025-01-07T00:00:00Z",
-    author: "Marvel Rivals HQ",
-    featured: true
-  },
-  {
-    title: "Team Composition Guide",
-    slug: "team-composition-guide",
-    excerpt: "Building synergistic team compositions for maximum effectiveness.",
-    image: "/images/agents/Marvel_Rivals_hero_Doctor_Strange.png",
-    body: `# Team Composition Guide
-
-Building effective team compositions is essential for competitive success in Marvel Rivals. This guide covers the fundamentals of team building and synergy optimization.
-
-## Core Composition Framework
-
-### Standard 2-2-2 Format
-- 2 Duelists (Damage dealers)
-- 2 Vanguards (Tanks/Frontline)  
-- 2 Strategists (Support/Utility)
-
-### Role Synergies
-
-#### Duelist Combinations
-- **Spider-Man + Iron Man**: Aerial dominance and mobility
-- **Hawkeye + Black Widow**: Long-range pressure and picks
-- **Hulk + Thor**: Heavy frontline presence
-
-#### Support Synergies  
-- **Doctor Strange + Mantis**: Utility and healing balance
-- **Adam Warlock + Luna Snow**: Resurrection and crowd control
-- **Loki + Emma Frost**: Mind games and area denial
-
-## Advanced Team Building
-
-### Win Conditions
-- Identify your team's primary win condition
-- Build around key ultimates and ability combinations
-- Consider map-specific advantages
-
-### Counter-Picking
-- Analyze enemy composition weaknesses
-- Adapt picks based on enemy strategy
-- Maintain team synergy while counter-picking
-
-### Communication Requirements
-- Establish clear shot-calling hierarchy
-- Coordinate ultimate usage timing
-- Practice team fight execution`,
-    tags: ["strategy", "teamwork", "advanced"],
-    relatedAgents: ["Spider-Man", "Doctor Strange", "Hulk"],
-    relatedMaps: [],
-    difficulty: "Hard",
-    readTime: 12,
-    patch: "Season 1",
-    updatedAt: "2025-01-06T00:00:00Z",
-    author: "Marvel Rivals HQ",
-    featured: true
-  },
-  {
-    title: "Ranked Climbing Mindset",
-    slug: "ranked-climbing-mindset",
-    excerpt: "Mental strategies and psychological approaches for competitive climbing.",
-    image: "/images/agents/Marvel_Rivals_gameasset_hero_Magneto.png",
-    body: "Mindset guide content here...",
-    tags: ["psychology", "ranked", "intermediate"],
-    relatedAgents: [],
-    relatedMaps: [],
-    difficulty: "Medium",
-    readTime: 10,
-    patch: "Season 1",
-    updatedAt: "2025-01-05T00:00:00Z",
-    author: "Marvel Rivals HQ",
-    featured: false
   },
   {
     title: "Iron Man Complete Guide - Master the Armored Avenger",
