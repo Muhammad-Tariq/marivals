@@ -28,22 +28,22 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Marvel Rivals HQ" }],
   creator: "Marvel Rivals HQ",
-  metadataBase: new URL("https://marvelrivalshq.com"),
+  metadataBase: new URL("https://www.marvelrivalz.com"),
   icons: {
     icon: [
-      { url: "/logo.png", sizes: "any" },
+      { url: "/logo.svg", sizes: "any" },
       { url: "/logo.png", type: "image/png", sizes: "32x32" },
       { url: "/logo.png", type: "image/png", sizes: "16x16" },
     ],
     apple: [
       { url: "/logo.png", sizes: "180x180", type: "image/png" },
     ],
-    shortcut: ["/logo.png"],
+    shortcut: ["/logo.svg"],
   },
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://marvelrivalshq.com",
+    url: "https://www.marvelrivalz.com",
     siteName: "Marvel Rivals HQ",
     title: "Marvel Rivals | Guides, Agents, Maps, Leaderboards",
     description: "The ultimate Marvel Rivals hub: tier lists, builds, map strategies, patch summaries, and live leaderboards. Updated every season.",
@@ -85,8 +85,8 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Marvel Rivals HQ",
-    "url": "https://marvelrivalshq.com",
-    "logo": "https://marvelrivalshq.com/og-logo.png",
+    "url": "https://www.marvelrivalz.com",
+    "logo": "https://www.marvelrivalz.com/logo.svg",
     "sameAs": [
       "https://x.com/marvelrivalshq",
       "https://www.youtube.com/@marvelrivalshq"

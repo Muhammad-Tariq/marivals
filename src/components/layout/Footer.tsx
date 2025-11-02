@@ -7,10 +7,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-[#E10600] rounded flex items-center justify-center">
-                <span className="text-white font-bold text-sm">MR</span>
-              </div>
+            <div className="flex items-center space-x-3 mb-4">
+              <img 
+                src="/logo.svg" 
+                alt="Marvel Rivals HQ Logo" 
+                className="w-10 h-10"
+              />
               <span className="text-xl font-bold text-white">Marvel Rivals HQ</span>
             </div>
             <p className="text-zinc-400 mb-4 max-w-md">
