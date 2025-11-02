@@ -29,6 +29,17 @@ export const metadata: Metadata = {
   authors: [{ name: "Marvel Rivals HQ" }],
   creator: "Marvel Rivals HQ",
   metadataBase: new URL("https://marvelrivalshq.com"),
+  icons: {
+    icon: [
+      { url: "/logo.png", sizes: "any" },
+      { url: "/logo.png", type: "image/png", sizes: "32x32" },
+      { url: "/logo.png", type: "image/png", sizes: "16x16" },
+    ],
+    apple: [
+      { url: "/logo.png", sizes: "180x180", type: "image/png" },
+    ],
+    shortcut: ["/logo.png"],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
