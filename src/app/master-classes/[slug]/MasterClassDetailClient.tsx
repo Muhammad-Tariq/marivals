@@ -7,11 +7,170 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { ContentTransition } from '@/components/animations/RouteTransition';
-import { Clock, BookOpen, Award, CheckCircle2, Circle } from 'lucide-react';
+import { Clock, BookOpen, Award, CheckCircle2, Circle, ExternalLink } from 'lucide-react';
 import { MasterClass } from '@/lib/types';
 
 interface MasterClassDetailClientProps {
   masterClass: MasterClass;
+}
+
+// Simple markdown link parser
+function parseMarkdownLinks(text: string): React.ReactNode[] {
+  const linkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = linkRegex.exec(text)) !== null) {
+    // Add text before the link
+    if (match.index > lastIndex) {
+      parts.push(text.slice(lastIndex, match.index));
+    }
+    
+    // Add the link
+    const [, linkText, url] = match;
+    parts.push(
+      <a 
+        key={match.index}
+        href={url} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="text-[#E10600] hover:text-[#E10600]/80 underline inline-flex items-center gap-1"
+      >
+        {linkText}
+        <ExternalLink className="w-3 h-3" />
+      </a>
+    );
+    
+    lastIndex = match.index + match[0].length;
+  }
+  
+  // Add remaining text
+  if (lastIndex < text.length) {
+    parts.push(text.slice(lastIndex));
+  }
+  
+  return parts.length > 0 ? parts : [text];
+}
+
+// Render markdown content with proper formatting
+function renderMarkdownContent(content: string): React.ReactNode {
+  const lines = content.split('\n');
+  const elements: React.ReactNode[] = [];
+  let currentParagraph: string[] = [];
+  
+  const flushParagraph = () => {
+    if (currentParagraph.length > 0) {
+      const text = currentParagraph.join(' ');
+      elements.push(
+        <p key={elements.length} className="text-zinc-300 mb-4 leading-relaxed">
+          {parseMarkdownLinks(text)}
+        </p>
+      );
+      currentParagraph = [];
+    }
+  };
+
+  lines.forEach((line, index) => {
+    const trimmedLine = line.trim();
+    
+    // Skip empty lines
+    if (!trimmedLine) {
+      flushParagraph();
+      return;
+    }
+    
+    // Headers
+    if (trimmedLine.startsWith('# ')) {
+      flushParagraph();
+      elements.push(
+        <h1 key={index} className="text-3xl font-bold text-white mt-8 mb-4">
+          {trimmedLine.slice(2)}
+        </h1>
+      );
+      return;
+    }
+    
+    if (trimmedLine.startsWith('## ')) {
+      flushParagraph();
+      elements.push(
+        <h2 key={index} className="text-2xl font-bold text-[#E10600] mt-6 mb-3">
+          {trimmedLine.slice(3)}
+        </h2>
+      );
+      return;
+    }
+    
+    if (trimmedLine.startsWith('### ')) {
+      flushParagraph();
+      elements.push(
+        <h3 key={index} className="text-xl font-semibold text-white mt-4 mb-2">
+          {trimmedLine.slice(4)}
+        </h3>
+      );
+      return;
+    }
+    
+    // Bold text with ** markers (like **📺 Video Playlist**)
+    if (trimmedLine.startsWith('**') && trimmedLine.includes('**:')) {
+      flushParagraph();
+      const colonIndex = trimmedLine.indexOf('**:');
+      const boldText = trimmedLine.slice(2, colonIndex);
+      const restOfLine = trimmedLine.slice(colonIndex + 3).trim();
+      
+      elements.push(
+        <p key={index} className="text-zinc-300 mb-4 leading-relaxed">
+          <strong className="text-white">{boldText}:</strong>{' '}
+          {parseMarkdownLinks(restOfLine)}
+        </p>
+      );
+      return;
+    }
+    
+    // List items
+    if (trimmedLine.startsWith('- ') || trimmedLine.startsWith('* ')) {
+      flushParagraph();
+      elements.push(
+        <li key={index} className="text-zinc-300 ml-4 mb-1">
+          {parseMarkdownLinks(trimmedLine.slice(2))}
+        </li>
+      );
+      return;
+    }
+    
+    // Numbered list items
+    if (/^\d+\.\s/.test(trimmedLine)) {
+      flushParagraph();
+      const text = trimmedLine.replace(/^\d+\.\s/, '');
+      elements.push(
+        <li key={index} className="text-zinc-300 ml-4 mb-1 list-decimal">
+          {parseMarkdownLinks(text)}
+        </li>
+      );
+      return;
+    }
+    
+    // Checkbox items
+    if (trimmedLine.startsWith('- [ ]') || trimmedLine.startsWith('- [x]')) {
+      flushParagraph();
+      const isChecked = trimmedLine.startsWith('- [x]');
+      const text = trimmedLine.slice(6);
+      elements.push(
+        <div key={index} className="flex items-center gap-2 text-zinc-300 ml-4 mb-1">
+          <input type="checkbox" checked={isChecked} readOnly className="accent-[#E10600]" />
+          <span>{parseMarkdownLinks(text)}</span>
+        </div>
+      );
+      return;
+    }
+    
+    // Regular paragraph text
+    currentParagraph.push(trimmedLine);
+  });
+  
+  flushParagraph();
+  
+  return elements;
 }
 
 export default function MasterClassDetailClient({ masterClass }: MasterClassDetailClientProps) {
@@ -128,7 +287,9 @@ export default function MasterClassDetailClient({ masterClass }: MasterClassDeta
                 </CardHeader>
                 <CardContent>
                   <div className="prose prose-invert max-w-none">
-                    {masterClass.content}
+                    {masterClass.content ? renderMarkdownContent(masterClass.content) : (
+                      <p className="text-zinc-400">Content coming soon...</p>
+                    )}
                   </div>
                 </CardContent>
               </Card>

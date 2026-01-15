@@ -1,6 +1,22 @@
 import { notFound } from 'next/navigation';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
 import { getMasterClassBySlug, getAllMasterClasses } from '@/lib/data/content';
 import MasterClassDetailClient from './MasterClassDetailClient';
+
+// Load MDX content for a master class
+async function getMasterClassContent(slug: string): Promise<string | null> {
+  const filePath = path.join(process.cwd(), 'content', 'master-classes', `${slug}.mdx`);
+  
+  try {
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const { content } = matter(fileContent);
+    return content;
+  } catch {
+    return null;
+  }
+}
 
 export async function generateStaticParams() {
   const masterClasses = getAllMasterClasses();
@@ -33,5 +49,14 @@ export default async function MasterClassPage({ params }: { params: Promise<{ sl
     notFound();
   }
 
-  return <MasterClassDetailClient masterClass={masterClass} />;
+  // Load the MDX content
+  const content = await getMasterClassContent(slug);
+  
+  // Add content to the master class object
+  const masterClassWithContent = {
+    ...masterClass,
+    content: content || undefined
+  };
+
+  return <MasterClassDetailClient masterClass={masterClassWithContent} />;
 }
